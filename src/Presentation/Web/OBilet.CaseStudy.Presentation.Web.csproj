@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ApplicationCore\OBilet.CaseStudy.ApplicationCore.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\OBilet.CaseStudy.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
